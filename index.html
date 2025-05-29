@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"
+      defer
+    ></script>
+    <script src="js/scripts.js" defer></script>
+    <title>Lucas Costa | Desenvolvedor WEB</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="index.html">
+        <div class="logo">Lucas Costa | Desenvolvedor WEB</div>
+      </a>
+      <div class="menu-icon" id="menuToggle">
+        <span class="bar bar1"></span>
+        <span class="bar bar2"></span>
+      </div>
+    </header>
+
+    <nav class="menu" id="menu">
+      <ul>
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="hero" id="hero">
+        <div id="particles-js"></div>
+        <div class="content">
+          <h2>Olá, eu sou o</h2>
+          <h1>LUCAS COSTA</h1>
+          <p>Desenvolvedor <span>Front-end</span></p>
+          <div class="icons">
+            <a href="https://instagram.com/lucas.coxta" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com/in/lucas-costad" target="_blank">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/LucasCoxta" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+          <a href="#sobre" class="scroll-down"
+            ><i class="fa-solid fa-angles-down"></i
+          ></a>
+        </div>
+      </section>
+
+      <!-- Seção Sobre -->
+      <div class="section-divider"></div>
+      <section id="sobre">
+        <h2 class="title">Sobre Mim</h2>
+        <div class="container-about">
+          <div class="img-sobre">
+            <span class="shape"></span>
+            <img src="img/lucas.jpg" alt="Foto de perfil" />
+          </div>
+          <div class="text-about fade-on-scroll">
+            <p>
+              Olá! Me chamo <span>Lucas</span> e sou desenvolvedor front-end
+              apaixonado por criar experiências modernas e acessíveis para a
+              web. Tenho experiência com <span>HTML</span>, <span>CSS</span>,
+              <span>JavaScript</span> e <span>React</span>, sempre buscando
+              entregar sites responsivos, intuitivos e com visual profissional.
+            </p>
+          </div>
+          <div class="btn">
+            <a
+              href="pdf/currículo-Lucas-da-Costa-Domingos.pdf"
+              download="currículo-Lucas-da-Costa-Domingos.pdf"
+            >
+              <button aria-label="Botão para baixar meu currículo">
+                Baixar CV
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção Habilidades -->
+      <div class="section-divider"></div>
+      <section id="skills">
+        <div class="skills-container">
+          <h2 class="title">Minhas Habilidades</h2>
+
+          <div class="card-container">
+            <div class="card-skills">
+              <i class="fa-brands fa-html5"></i>
+              <p>HTML5</p>
+            </div>
+
+            <div class="card-skills">
+              <i class="fa-brands fa-css3-alt"></i>
+              <p>CSS3</p>
+            </div>
+
+            <div class="card-skills">
+              <i class="fa-brands fa-js"></i>
+              <p>JavaScript</p>
+            </div>
+
+            <div class="card-skills">
+              <i class="fa-brands fa-bootstrap"></i>
+              <p>Bootstrap</p>
+            </div>
+
+            <div class="card-skills">
+              <i class="fa-brands fa-react"></i>
+              <p>React</p>
+            </div>
+
+            <div class="card-skills">
+              <i class="fa-brands fa-wordpress"></i>
+              <p>WordPress</p>
+            </div>
+
+            <div class="card-skills">
+              <i class="fa-brands fa-figma"></i>
+              <p>Figma</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- projetos -->
+      <div class="section-divider"></div>
+      <section id="projetos">
+        <h2 class="title">Projetos</h2>
+        <div class="container-proj">
+          <div class="projects-grid">
+            <!-- Projeto 1 -->
+            <div class="card-proj">
+              <div class="proj-img">
+                <img src="img/site-Leticia.png" alt="Site Letícia Miranda" />
+              </div>
+              <div class="about-proj">
+                <h3>Landing Page - Letícia Miranda, Advogada</h3>
+                <p>
+                  Página profissional para destacar especialidades, diferenciais
+                  e contato da advogada Letícia Miranda.
+                </p>
+              </div>
+              <div class="icon-tech">
+                <button>HTML5 <i class="fa-brands fa-html5"></i></button>
+                <button>CSS3 <i class="fa-brands fa-css3-alt"></i></button>
+                <button>JAVASCRIPT<i class="fa-brands fa-js"></i></button>
+              </div>
+              <a
+                href="https://advleticiamiranda.com.br/"
+                class="btn"
+                target="_blank"
+              >
+                <button class="btn">Ver o projeto</button>
+              </a>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="card-proj">
+              <div class="proj-img">
+                <img
+                  src="img/site-cafeteria.png"
+                  alt="Site Cafeteria Tia Rosa"
+                />
+              </div>
+              <div class="about-proj">
+                <h3>Site Institucional - Coffe-Shops - Tia Roasa</h3>
+                <p>
+                  Site institucional para apresentar o cardápio, a história da
+                  cafeteria e facilitar o contato com os clientes.
+                </p>
+              </div>
+              <div class="icon-tech">
+                <button>HTML5 <i class="fa-brands fa-html5"></i></button>
+                <button>CSS3 <i class="fa-brands fa-css3-alt"></i></button>
+                <button>JAVASCRIPT<i class="fa-brands fa-js"></i></button>
+              </div>
+              <a
+                href="https://cafeteriarosa.netlify.app/"
+                class="btn"
+                target="_blank"
+              >
+                <button class="btn">Ver o projeto</button>
+              </a>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="card-proj">
+              <div class="proj-img">
+                <img src="img/site-lucas.png" alt="Site Portfólio Lucas" />
+              </div>
+              <div class="about-proj">
+                <h3>Landing Page - Desenvolvedor Web, Portfólio Lucas Costa</h3>
+                <p>
+                  Página profissional para destacar habilidades, projetos e
+                  contato do desenvolvedor Lucas.
+                </p>
+              </div>
+              <div class="icon-tech">
+                <button>HTML5 <i class="fa-brands fa-html5"></i></button>
+                <button>CSS3 <i class="fa-brands fa-css3-alt"></i></button>
+                <button>JAVASCRIPT<i class="fa-brands fa-js"></i></button>
+              </div>
+              <a href="index.html" class="btn" target="_blank">
+                <button class="btn">Ver o projeto</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção de contato -->
+      <div class="section-divider"></div>
+      <section id="contato" class="contato-section">
+        <h2 class="title">Contatos</h2>
+        <div class="container-contato">
+          <!-- Formulário -->
+          <div class="contato-formulario">
+            <h2>Fale Comigo</h2>
+            <p>
+              Preencha o formulário e envie uma mensagem direta pelo WhatsApp.
+            </p>
+            <form onsubmit="enviarWhatsApp(event)">
+              <input type="text" id="nome" placeholder="Seu nome" required />
+              <textarea
+                id="mensagem"
+                rows="5"
+                placeholder="Sua mensagem"
+                required
+              ></textarea>
+              <button type="submit">Enviar pelo WhatsApp</button>
+            </form>
+          </div>
+
+          <!-- Informações de Contato -->
+          <div class="contato-info">
+            <h2>Informações</h2>
+            <ul>
+              <li><strong>WhatsApp:</strong> (61) 9 8190-4208</li>
+              <li><strong>Email:</strong> lucas.cdomingos@gmail.com</li>
+              <li><strong>Localização:</strong> Brasília- DF</li>
+            </ul>
+            <p>Sinta-se à vontade para entrar em contato!</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <p>&copy; 2025 Lucas | Todos os direitos reservados.</p>
+
+        <div class="icons">
+          <a
+            href="https://instagram.com/lucas.coxta"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://linkedin.com/in/lucas-costad"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a
+            href="https://github.com/LucasCoxta"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+
+        <ul class="footer-links">
+          <li>
+            <a href="https://wa.me/5561981904208" target="_blank">WhatsApp</a>
+          </li>
+          <li><a href="mailto:lucas.cdomingos@gmail.com">Email</a></li>
+          <li><a href="#hero">Ínicio</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
