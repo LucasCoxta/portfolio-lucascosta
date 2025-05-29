@@ -208,5 +208,5 @@ function init() {
     .forEach((el) => fadeObserver.observe(el));
 }
 
-// Aguarda o carregamento do DOM para iniciar o script
+// Aguarda o carregamento do DOM para iniciar o scripts
 document.addEventListener("DOMContentLoaded", init);
