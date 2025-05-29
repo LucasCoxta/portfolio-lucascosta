@@ -174,7 +174,7 @@ function enviarWhatsApp(event) {
   event.preventDefault();
   const nome = document.getElementById("nome").value;
   const mensagem = document.getElementById("mensagem").value;
-  const numero = "5511987654321"; // Alterar para seu número
+  const numero = "5561981904208";
 
   const texto = encodeURIComponent(`Olá, me chamo ${nome}. ${mensagem}`);
   const link = `https://wa.me/${numero}?text=${texto}`;
